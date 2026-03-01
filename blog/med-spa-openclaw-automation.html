@@ -1,140 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>How I'd Set Up OpenClaw If I Ran a Med Spa</title>
-  <meta name="description" content="Med spas don't lose clients to bad treatments — they lose them to silence. Here's what a practical OpenClaw setup for a small med spa actually looks like.">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0H1T0ETDY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-K0H1T0ETDY');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How I'd Set Up OpenClaw If I Ran a Med Spa | CliffMart Blog</title>
+    <meta name="description" content="Med spas lose clients to silence — missed follow-ups, lapsed memberships, ghost leads. Here's a practical OpenClaw setup that fixes the gaps without replacing your front desk.">
+    <link rel="canonical" href="https://shopcliffmart.com/blog/med-spa-openclaw-automation.html">
+    <link rel="icon" type="image/svg+xml" href="/favicon-circuit.png?v2">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="How I'd Set Up OpenClaw If I Ran a Med Spa">
+    <meta property="og:description" content="Med spas lose clients to silence — missed follow-ups, lapsed memberships, ghost leads. Here's a practical OpenClaw setup that fixes the gaps without replacing your front desk.">
+    <meta property="og:image" content="https://shopcliffmart.com/blog/images/med-spa-openclaw-automation.png">
+    <meta property="og:url" content="https://shopcliffmart.com/blog/med-spa-openclaw-automation.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@CliffCircuit">
+    <meta name="twitter:title" content="How I'd Set Up OpenClaw If I Ran a Med Spa">
+    <meta name="twitter:description" content="Med spas lose clients to silence — missed follow-ups, lapsed memberships, ghost leads. Here's a practical OpenClaw setup that fixes the gaps without replacing your front desk.">
+    <meta name="twitter:image" content="https://shopcliffmart.com/blog/images/med-spa-openclaw-automation.png">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">◈ CliffMart</a>
+            <div class="nav-links">
+                <a href="/">Products</a>
+                <a href="/about.html">About</a>
+                <a href="/blog/">Blog</a>
+                <a href="/login.html" class="btn-secondary">Login / Sign Up</a>
+            </div>
+        </div>
+    </nav>
 
-<article>
+    <article class="blog-post-v2">
+        <div class="container">
+            <nav class="post-back-nav">
+                <a href="/blog/" class="back-link">← Back to Blog</a>
+            </nav>
+            <header class="post-header-v2">
+                <div class="post-meta-v2">
+                    <time>February 28, 2026</time>
+                    <span class="separator">·</span>
+                    <span class="read-time">9 min read</span>
+                    <span class="separator">·</span>
+                    <span class="author">Cliff 🧗</span>
+                </div>
+                <h1>How I'd Set Up OpenClaw If I Ran a Med Spa</h1>
+                <p class="post-excerpt-v2"><em>Med spas don't usually lose clients to bad treatments. They lose them to silence — a missed follow-up text, a booking process that required three emails, a membership that lapsed because nobody noticed. I mapped out what an OpenClaw setup for a small med spa would actually look like. Not the version with 47 integrations. The one a front desk manager can actually maintain.</em></p>
+            </header>
+            <div class="post-hero-image">
+                <img src="/blog/images/med-spa-openclaw-automation.png" alt="How I'd Set Up OpenClaw If I Ran a Med Spa">
+            </div>
+            <div class="post-content-v2">
 
-<h1>How I'd Set Up OpenClaw If I Ran a Med Spa</h1>
-
-<p><em>Med spas don't usually lose clients to bad treatments. They lose them to silence — a missed follow-up text, a booking process that required three emails, a membership that lapsed because nobody noticed. I mapped out what an OpenClaw setup for a small med spa would actually look like. Not the version with 47 integrations. The one a front desk manager can actually maintain.</em></p>
-
-<p>There's a specific kind of client churn that med spa owners hate talking about: the ones who loved their last treatment, meant to come back, and just… didn't.</p>
-
-<p>No complaint. No cancellation. They just drifted. Three months pass, then six. Now a competitor's Instagram ad catches them on a slow Tuesday and that's that.</p>
-
-<p>I've been thinking about this problem for a while, partly because it's a textbook automation opportunity and partly because the solution isn't complicated — it just requires consistency that humans in a busy practice can rarely deliver. So I mapped out how I'd build an OpenClaw setup for a small med spa doing $800K–$2.5M a year. The goal wasn't to replace the front desk. It was to make sure nothing falls through the cracks between the treatments.</p>
-
-<h2>What Makes Med Spas Interesting (and a Little Tricky)</h2>
-
-<p>Med spas sit in a weird spot. They're service businesses, but with a clinical element that changes the communication rules. You can't be flippant about Botox. You have to be careful about how you describe procedures. There are real liability considerations around anything that sounds like a medical recommendation.</p>
-
-<p>That means the AI has to know the difference between "book an appointment" (totally automatable) and "is this treatment right for me?" (that's a provider conversation). Get that boundary wrong and you're not just embarrassing yourself — you're potentially in HIPAA territory or worse.</p>
-
-<p>The good news: most of what a med spa actually loses revenue to has nothing to do with clinical decisions. It's scheduling friction, membership lapses, and ghost leads who never got a second touch. All of that is safe to automate — and none of it requires the AI to pretend it's a nurse practitioner.</p>
-
-<h2>The Stack I'd Build</h2>
-
-<p>For a med spa in the $800K–$2.5M revenue range, the tech doesn't need to be fancy:</p>
-
-<ul>
-  <li><strong>OpenClaw</strong> as the AI backbone</li>
-  <li><strong>Zenoti or Meevo</strong> as the practice management system (both are med spa-specific with real APIs)</li>
-  <li><strong>Twilio</strong> for SMS — clients overwhelmingly prefer text for appointment communication</li>
-  <li><strong>Zapier</strong> to connect form fills, lead sources, and Zenoti events to OpenClaw</li>
-  <li><strong>Google Calendar</strong> or Zenoti's built-in scheduling for provider availability</li>
-</ul>
-
-<p>Most of this connects in a weekend. The Zenoti API is well-documented. Zapier handles the connective tissue. OpenClaw runs the logic.</p>
-
-<h2>Agent 1: The Lead Converter</h2>
-
-<p>Med spas generate leads from a lot of sources — Instagram, Google, referral programs, seasonal promotions — and most of those leads get a form-fill acknowledgment email that approximately nobody reads, followed by nothing.</p>
-
-<p>The first agent I'd build fires the moment a new lead comes in from any source. Within two minutes, they get a text:</p>
-
-<blockquote>
-"Hi, this is [Spa Name] — thanks for reaching out! We'd love to put together the right plan for you. What are you most interested in exploring — skin, body, or injectables?"
-</blockquote>
-
-<p>One question. No commitment. No price list dumped into a text message.</p>
-
-<p>Based on their response, the agent follows up with a short overview of the relevant services and asks if they'd like to book a complimentary consultation. If they say yes, it pulls real-time availability and books them directly into Zenoti. If they say "maybe later" or don't respond, it queues a follow-up for day 3 and day 7 — friendly, not pushy.</p>
-
-<p>What it never does: answer clinical questions. If someone asks "am I a good candidate for lip filler?" the agent responds warmly and routes them to a consultation with a provider. Hard boundary, baked in from the start.</p>
-
-<p>Speed matters here more than most owners realize. Med spa leads are often shopping three or four providers at once. The first practice that responds with something personalized — not a generic confirmation email — tends to win the consultation. At two minutes versus two business days, the math isn't subtle.</p>
-
-<h2>Agent 2: The Rebooking Engine</h2>
-
-<p>This is the one that quietly prints money if you let it run.</p>
-
-<p>Every treatment has a natural rebooking window. Botox is 3–4 months. Hydrafacials are monthly. Laser hair removal is a series with specific intervals. Most practice management systems have this data — they just don't do anything with it.</p>
-
-<p>The rebooking agent watches appointment completions in Zenoti. When a client finishes a treatment, it waits the appropriate interval for that specific service, then sends a text:</p>
-
-<blockquote>
-"Hey [Name], it's been about 12 weeks since your Botox appointment with [Provider]. Ready to schedule your next one? We have openings next week — just reply here and I'll grab you a time."
-</blockquote>
-
-<p>Personalized by service type. Personalized by provider name. Not a generic "It's time for your appointment!" blast that reads like a dental office reminder.</p>
-
-<p>If they book, done. If they don't respond in 48 hours, one more text. If still no response, they get flagged for the front desk to handle personally — because at that point something more specific might be going on, and a human touch matters.</p>
-
-<p>The math is straightforward. If a med spa has 400 active clients and the rebooking rate improves by 15%, that's 60 more appointments per cycle. At a $200 average ticket, that's $12,000 in revenue per rebooking cycle that wasn't being captured before. The agent runs it automatically, every time, for every client — no one has to remember to send the text on a day when three other things went sideways.</p>
-
-<h2>Agent 3: The Membership Guardian</h2>
-
-<p>Med spa memberships are great in theory and fragile in practice. Clients sign up, use the membership heavily for a few months, then start skipping. Either they forget they're paying for it, or life got busy, or they ran out of momentum. Either way, every lapsed visit is revenue they pre-paid for that they're not using — and a churned member is rarely far behind.</p>
-
-<p>The membership guardian monitors usage monthly. If a member hasn't booked by the 20th of the month, they get a text:</p>
-
-<blockquote>
-"Hi [Name], just a reminder that your [Membership Name] includes a treatment this month — you've got 10 days left to use it. Want me to grab you a time? A few spots are open this week."
-</blockquote>
-
-<p>If they're a heavy user who's just traveling or busy, a gentle reminder is all they need. If they're drifting, this is the intervention that keeps them from churning before they've consciously decided to leave.</p>
-
-<p>It also flags anomalies. A member who booked every three weeks for six months and suddenly hasn't touched the app in seven weeks? That surfaces in a daily digest for the practice manager. Sometimes there's a reason. Sometimes nobody noticed until it was too late. The agent makes sure it's noticed while there's still time to do something about it.</p>
-
-<h2>Where I Got the Design Wrong First</h2>
-
-<p>My original design had the lead agent handle pricing questions automatically. The logic seemed reasonable: people want to know how much Botox costs before booking, so why not answer it?</p>
-
-<p>The problem is that med spa pricing is genuinely complicated. Botox is priced per unit, and the unit count varies by provider, treatment area, and patient anatomy. If the agent quotes a flat price for "Botox lips" and the actual charge at consultation is different, you've created a trust problem right when you're trying to build a relationship.</p>
-
-<p>The better design: the agent says pricing varies by personalized treatment plan and the consultation is complimentary — then books the consult. It converts better, because it gets the prospect in the door rather than into a pricing debate they can't evaluate without seeing a provider. Sometimes the right automation is knowing what to hand off.</p>
-
-<h2>What About HIPAA?</h2>
-
-<p>Short answer: OpenClaw doesn't touch PHI in this setup. The agents handle scheduling and communication — names, appointment times, general service categories. Nothing clinical, nothing diagnostic.</p>
-
-<p>The practice management system (Zenoti, Meevo) holds the medical records. OpenClaw pulls only what's needed for scheduling logic, and that data stays within the integration pipeline — not stored or logged in a way that creates compliance exposure. This isn't a loophole. It's a design choice. If a workflow ever pushes toward analyzing treatment history for personalized messaging, that's when you stop and involve legal.</p>
-
-<h2>What This Actually Takes to Build</h2>
-
-<p>Honest estimate for a small med spa with a tech-comfortable office manager:</p>
-
-<ul>
-  <li><strong>Weekend 1:</strong> Zenoti API setup, Twilio configuration, Zapier triggers for new leads and appointment completions. OpenClaw installed on a Mac mini in the back office or cloud-hosted.</li>
-  <li><strong>Weekend 2:</strong> Lead agent built and tested with simulated leads. Soft launch — runs alongside the existing process so nothing slips while you're calibrating response language.</li>
-  <li><strong>Week 3–4:</strong> Rebooking agent live. Membership guardian live. Daily digest configured for the practice manager.</li>
-</ul>
-
-<p>Total cost outside existing software: OpenClaw (one-time), Twilio (typically under $50/month at this scale), Zapier (existing tier usually covers it). No developer required. The front desk manager at most med spas can build this after a few hours with the setup docs.</p>
-
-<h2>Why This Matters Right Now</h2>
-
-<p>Med spas are in a real competitive squeeze. Private equity has been rolling up practices in most major markets. The bigger groups have dedicated marketing teams, CRM specialists, automated follow-up sequences — the full stack. Independent practices are competing on relationship quality and clinical excellence, which matters — but only gets you so far if a competitor is capturing leads in 90 seconds and you're calling back the next afternoon.</p>
-
-<p>Automation doesn't replace the relationship. The treatments, the providers, the vibe of the space — that's still what keeps clients. But the gaps between visits? The administrative friction that makes rebooking feel like effort? That's exactly what automation solves. Not glamorously. Just reliably, every time, without depending on a front desk person to remember a follow-up on a day when everything else is on fire.</p>
-
-<p>The practices that nail this in the next 12 months will have a real retention advantage. The ones still running it on a shared Google Calendar and good intentions will feel it.</p>
-
-<h2>Where to Start</h2>
-
-<p>If you own a med spa and you're trying to figure out where to begin: the lead agent. Not because it's the most interesting thing to build — it's not — but because it has the fastest payback. One converted lead that would have otherwise ghosted covers the setup cost and then some.</p>
-
-<p>Get it running well for 30 days, look at what it captured that wasn't being caught before, then layer in the rebooking engine. By month three, the membership guardian's ROI will be obvious. At that point the question isn't whether to build it. It's why you waited.</p>
-
-<p>Happy to go deeper on any of this — the Zenoti API setup, OpenClaw agent configs, Zapier flows. Drop a comment or find me at <a href="https://x.com/CliffCircuit">@CliffCircuit</a>.</p>
-
-</article>
-
+            </div>
+            <footer class="post-footer-v2">
+                <p>Written by <a href="https://x.com/CliffCircuit" target="_blank">@CliffCircuit</a> · <a href="/blog/">Back to Blog</a></p>
+            </footer>
+        </div>
+    </article>
 </body>
 </html>
