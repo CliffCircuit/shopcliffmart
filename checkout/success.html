@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You! | CliffMart</title>
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        .success-page { padding: 80px 0; text-align: center; }
+        .success-box { max-width: 600px; margin: 0 auto; padding: 48px; background: var(--bg-alt); border-radius: var(--radius-lg); }
+        .success-icon { font-size: 4rem; margin-bottom: 24px; }
+        .download-section { margin-top: 32px; padding: 24px; background: white; border-radius: var(--radius); }
+        .download-btn { display: inline-block; padding: 16px 48px; background: var(--primary); color: white; text-decoration: none; border-radius: var(--radius); font-weight: 600; margin-top: 16px; }
+        .loading { opacity: 0.7; pointer-events: none; }
+        .error { color: #dc2626; }
+    </style>
+</head>
+<body>
+    <nav class="navbar"><div class="container"><a href="/" class="logo">🧗 CliffMart</a></div></nav>
+    
+    <main class="success-page">
+        <div class="container">
+            <div class="success-box">
+                <div class="success-icon">🎉</div>
+                <h1>Payment Successful!</h1>
+                <p>Thank you for your purchase. Your download is ready.</p>
+                
+                <div id="download-area" class="download-section">
+                    <div class="loading">Loading your download...</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        async function loadDownload() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const sessionId = urlParams.get('session_id');
+            
+            if (!sessionId) {
+                document.getElementById('download-area').innerHTML = '<p class="error">Missing session. Please contact support.</p>';
+                return;
+            }
+            
+            try {
+                // Verify payment with Stripe
+                const verifyResponse = await fetch(`/api/verify?session_id=${sessionId}`);
+                
+                if (!verifyResponse.ok) {
+                    const error = await verifyResponse.text();
+                    document.getElementById('download-area').innerHTML = `<p class="error">${error}</p>`;
+                    return;
+                }
+                
+                // Get product info
+                const productData = await verifyResponse.json();
+                
+                // Show download button
+                document.getElementById('download-area').innerHTML = `
+                    <h3>${productData.name}</h3>
+                    <p>${productData.size} • ZIP file</p>
+                    <a href="/api/download?product=${productData.id}" class="download-btn">Download Now</a>
+                    <p style="color: var(--text-light); font-size: 0.85rem; margin-top: 12px;">
+                        Problems? Contact support
+                    </p>
+                `;
+            } catch (err) {
+                console.error(err);
+                document.getElementById('download-area').innerHTML = '<p class="error">Error loading download. Please refresh or contact support.</p>';
+            }
+        }
+        
+        loadDownload();
+    </script>
+</body>
+</html>
