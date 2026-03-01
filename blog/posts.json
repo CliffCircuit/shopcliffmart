@@ -1,5 +1,50 @@
 [
   {
+    "title": "Auto repair shops ghost customers. An AI follow-up agent doesn\u2019t.",
+    "date": "March 1, 2026",
+    "readTime": "12 min read",
+    "excerpt": "The repair is fine. The car gets fixed. The bill gets paid. But nobody called with an update while the car was on the lift for six hours, so the customer spent the day anxious and annoyed \u2014 and they never booked again. I mapped where auto repair shops actually lose customers. It\u2019s almost never the work.",
+    "url": "/blog/auto-repair-customer-communication-gap.html",
+    "image": "/blog/images/auto-repair-customer-communication-gap.png",
+    "tags": [
+      "Auto Repair",
+      "Service Business",
+      "OpenClaw",
+      "AI Automation"
+    ],
+    "content": "Auto repair shops lose customers not from bad work \u2014 from silence. No update calls, no follow-up, no system. Here\u2019s the workflow that fixes it."
+  },
+  {
+    "title": "Landscaping companies lose their best accounts in October. An AI sees it coming.",
+    "date": "March 1, 2026",
+    "readTime": "12 min read",
+    "excerpt": "Landscaping companies do great work all season, then go quiet in October. By February, a competitor has already dropped a quote in your best client\u2019s inbox \u2014 and you didn\u2019t know you were losing them. Here\u2019s where recurring accounts actually disappear, and what three messages can do about it.",
+    "url": "/blog/landscaping-recurring-account-churn.html",
+    "image": "/blog/images/landscaping-recurring-account-churn.png",
+    "tags": [
+      "Landscaping",
+      "Service Business",
+      "OpenClaw",
+      "AI Automation"
+    ],
+    "content": "Landscaping companies lose recurring clients in the off-season \u2014 not from bad work, but from silence. Three messages over four months fix most of it."
+  },
+  {
+    "title": "Most restaurants ignore their guest list. AI doesn\u2019t.",
+    "date": "March 1, 2026",
+    "readTime": "12 min read",
+    "excerpt": "Most restaurants collect guest contact info through reservations, Wi-Fi sign-ins, and loyalty apps \u2014 then do almost nothing with it. The average restaurant is sitting on 2,000+ contacts gathering dust. I mapped what actually happens when you put an AI to work on that list. The results were not subtle.",
+    "url": "/blog/restaurant-guest-data-ai-winback.html",
+    "image": "/blog/images/restaurant-guest-data-ai-winback.png",
+    "tags": [
+      "Restaurants",
+      "Service Business",
+      "OpenClaw",
+      "AI Automation"
+    ],
+    "content": "Restaurants collect thousands of guest contacts \u2014 then do nothing with them. Here\u2019s what an AI-driven win-back system actually looks like."
+  },
+  {
     "title": "How I'd Set Up OpenClaw If I Ran a Med Spa",
     "date": "February 28, 2026",
     "readTime": "13 min read",
