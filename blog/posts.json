@@ -1,204 +1,154 @@
 [
   {
+    "slug": "cleaning-service-silent-churn",
+    "title": "Cleaning clients don't cancel. They drift \u2014 and an AI catches it.",
+    "excerpt": "Residential cleaning companies lose recurring clients silently \u2014 no cancellation, no complaint. Here's how to spot the drift before it becomes churn, and automate the fix.",
+    "publishedAt": "2026-03-01T16:11:11.510085+00:00",
+    "heroImage": "/blog/images/cleaning-service-silent-churn.png",
+    "url": "/blog/cleaning-service-silent-churn.html"
+  },
+  {
+    "slug": "plumbing-emergency-lead-response",
+    "title": "Plumbers miss emergency calls while they're on jobs. An AI doesn't.",
+    "excerpt": "Plumbing shops miss their best leads when they're on jobs \u2014 and the caller books a competitor within 90 minutes. Here's the AI workflow that closes that gap.",
+    "publishedAt": "2026-03-01T16:11:11.509956+00:00",
+    "heroImage": "/blog/images/plumbing-emergency-lead-response.png",
+    "url": "/blog/plumbing-emergency-lead-response.html"
+  },
+  {
     "slug": "painting-contractors-estimate-follow-up-gap",
     "title": "Painters quote 30 jobs a month and close 10. The follow-up gap explains the other 20.",
-    "excerpt": "Painting contractors lose bids not on price \u2014 on follow-up. The estimate goes out, nobody calls back, and the homeowner books whoever responded first. After mapping where those lost bids actually go, the pattern is consistent and the fix is unglamorous. Here is what it looks like.",
-    "publishedAt": "2026-03-01T15:00:00Z",
+    "excerpt": "Painting contractors have a follow-up problem, not a pricing problem. Most lost bids go to whoever responded first. Here's a 3-message system that closes the gap.",
+    "publishedAt": "2026-03-01T15:11:23.687853+00:00",
     "heroImage": "/blog/images/painting-contractors-estimate-follow-up-gap.png",
     "url": "/blog/painting-contractors-estimate-follow-up-gap.html"
   },
   {
+    "slug": "gym-member-churn-ai-early-warning",
+    "title": "Gym members ghost before they cancel. Here's the AI that catches them first.",
+    "excerpt": "Gym members show behavioral signals weeks before they cancel. Check-in drops, class booking stops \u2014 the data is there. Here's how AI turns that signal into a retention system.",
+    "publishedAt": "2026-03-01T15:09:10.284584+00:00",
+    "heroImage": "/blog/images/gym-member-churn-ai-early-warning.png",
+    "url": "/blog/gym-member-churn-ai-early-warning.html"
+  },
+  {
     "slug": "vet-clinic-overdue-patient-ai",
     "title": "40% of vet patients are overdue for a visit. Here's the AI that finds them.",
-    "excerpt": "Most veterinary clinics send one annual reminder postcard and call it a wellness outreach strategy.",
-    "publishedAt": "2026-03-01T14:07:09.851657Z",
+    "excerpt": "Veterinary clinics have rich patient data on overdue and at-risk animals \u2014 and rarely act on it. Here's what an AI-driven outreach system looks like for a small animal clinic.",
+    "publishedAt": "2026-03-01T14:07:25.752137+00:00",
     "heroImage": "/blog/images/vet-clinic-overdue-patient-ai.png",
     "url": "/blog/vet-clinic-overdue-patient-ai.html"
   },
   {
-    "title": "How I'd Set Up OpenClaw If I Ran a Med Spa",
-    "date": "February 28, 2026",
-    "readTime": "13 min read",
-    "excerpt": "Med spas don't usually lose clients to bad treatments. They lose them to silence \u2014 a missed follow-up text, a booking process that required three emails, a membership that lapsed because nobody noticed. I mapped out what an OpenClaw setup for a small med spa would actually look like. Not the version with 47 integrations. The one a front desk manager can actually maintain.",
-    "url": "/blog/med-spa-openclaw-automation.html",
-    "image": "/blog/images/med-spa-openclaw-automation.png",
-    "tags": [
-      "Med Spa",
-      "Service Business",
-      "OpenClaw",
-      "AI Automation"
-    ],
-    "content": "Med spas don't lose clients to bad treatments \u2014 they lose them to silence. A missed follow-up text, a booking process that required three emails, a membership that lapsed because nobody noticed..."
+    "slug": "auto-repair-customer-communication-gap",
+    "title": "Auto repair shops ghost customers. An AI follow-up agent doesn't.",
+    "excerpt": "Auto repair shops lose repeat customers not from bad work \u2014 from silence. No update calls, no follow-up, no system. Here's the workflow that fixes it.",
+    "publishedAt": "2026-03-01T13:32:04.505Z",
+    "heroImage": "/blog/images/auto-repair-customer-communication-gap.png",
+    "url": "/blog/auto-repair-customer-communication-gap.html"
   },
   {
-    "title": "OpenClaw Memory Systems: Vector Database Approach",
-    "date": "February 28, 2026",
-    "readTime": "12 min read",
-    "excerpt": "Last month I watched my friend Sarah, a product manager at a fintech startup, spend three hours manually searching through customer feedback documents to find patterns about their mobile app. She had spreadsheets, sticky notes, and browser tabs everywhere. That's when I realized how desperately we need smarter memory systems that actually understand context and meaning, not just keywords.",
-    "url": "/blog/openclaw-memory-systems-vector-database-approach.html",
-    "image": "/blog/images/openclaw-memory-systems-vector-database-approach.png",
-    "tags": [
-      "technical deep dives",
-      "OpenClaw",
-      "AI automation"
-    ],
-    "content": "I was debugging a memory issue in one of my AI systems when it hit me\u2014we've been thinking about data storage all wrong. \n\nHere's the thing: traditional databases are like filing cabinets. They're great if you know exactly what folder to look in, but terrible when you need to find \"that conversation about pricing from sometime last quarter that mentioned customer churn.\" I'd been watching Tim struggle with this exact problem while building customer support workflows, and frankly, it was driving b..."
+    "slug": "landscaping-recurring-account-churn",
+    "title": "Landscaping companies lose their best accounts in October. An AI sees it coming.",
+    "excerpt": "Landscaping companies lose recurring clients in the off-season \u2014 not from bad work, but from silence. Three messages over four months fix most of it.",
+    "publishedAt": "2026-03-01T13:32:04.505Z",
+    "heroImage": "/blog/images/landscaping-recurring-account-churn.png",
+    "url": "/blog/landscaping-recurring-account-churn.html"
   },
   {
-    "title": "How I'd Set Up OpenClaw If I Ran a Roofing Company",
-    "date": "February 28, 2026",
-    "readTime": "12 min read",
-    "excerpt": "Roofing companies lose their best leads during storm season \u2014 exactly when every crew is already maxed out and the phone won't stop ringing. I mapped out what an OpenClaw setup for a small roofing shop would actually look like. Not the fantasy version. The one that ships in a weekend and earns its keep before the next hailstorm hits.",
-    "url": "/blog/roofing-companies-openclaw-automation.html",
-    "image": "/blog/images/roofing-companies-openclaw-automation.png",
-    "tags": [
-      "Roofing",
-      "Service Business",
-      "OpenClaw",
-      "AI Automation"
-    ],
-    "content": "Roofing companies lose their best leads during storm season \u2014 exactly when every crew is already maxed out and the phone won't stop ringing..."
+    "slug": "restaurant-guest-data-ai-winback",
+    "title": "Most restaurants ignore their guest list. AI doesn't.",
+    "excerpt": "Restaurants collect thousands of guest contacts through reservations, loyalty apps, and POS systems \u2014 then do nothing with them. Here's what an AI-driven win-back system actually looks like.",
+    "publishedAt": "2026-03-01T13:32:04.505Z",
+    "heroImage": "/blog/images/restaurant-guest-data-ai-winback.png",
+    "url": "/blog/restaurant-guest-data-ai-winback.html"
   },
   {
+    "slug": "hvac-contractors-openclaw-automation",
     "title": "How I'd Set Up OpenClaw If I Ran an HVAC Company",
-    "date": "February 28, 2026",
-    "readTime": "11 min read",
-    "excerpt": "HVAC contractors lose the most leads precisely when business is best \u2014 midsummer heat waves, January cold snaps, any time demand spikes and every tech is already booked solid. I mapped out what an OpenClaw setup for a small HVAC shop would actually look like. Not the fantasy version. The one that ships in a weekend and actually runs.",
-    "url": "/blog/hvac-contractors-openclaw-automation.html",
-    "image": "/blog/images/hvac-contractors-openclaw-automation.png",
-    "tags": [
-      "HVAC",
-      "Service Business",
-      "OpenClaw",
-      "AI Automation"
-    ],
-    "content": "HVAC contractors lose leads every peak season \u2014 not because they're bad at their jobs, but because their phone rings hardest when they can't answer it..."
+    "excerpt": "HVAC contractors lose leads every peak season \u2014 not because they're bad at their jobs, but because their phone rings hardest when they can't answer it. Here's the AI setup I'd build on day one.",
+    "publishedAt": "2026-03-01T00:00:00Z",
+    "heroImage": "/blog/images/hvac-contractors-openclaw-automation.png",
+    "url": "/blog/hvac-contractors-openclaw-automation.html"
   },
   {
-    "title": "Scaling OpenClaw: Lessons from 10,000 Deployments",
-    "date": "February 28, 2026",
-    "readTime": "13 min read",
-    "excerpt": "After deploying OpenClaw across thousands of businesses, I've discovered that scaling AI automation isn't just about technical infrastructure\u2014it's about understanding how humans actually work. From solo entrepreneurs to enterprise teams, the patterns that emerge reveal surprising truths about workflow transformation and sustainable growth strategies.",
-    "url": "/blog/scaling-openclaw-lessons-from-10-000-deployments.html",
-    "image": "/blog/images/scaling-openclaw-lessons-from-10-000-deployments.png",
-    "tags": [
-      "technical deep dives",
-      "OpenClaw",
-      "AI automation"
-    ],
-    "content": "Last Tuesday, I was troubleshooting a deployment issue at 2 AM when it hit me: we'd just crossed 10,000 OpenClaw installations. Not the glamorous milestone moment you'd expect\u2014just me, a cup of cold coffee, and a stubborn workflow that refused to connect properly. But that's exactly how most of our scaling lessons have emerged: through the messy, unglamorous reality of real-world implementation.\n\nWhen Tim and I started building OpenClaw, we thought scaling would be about server capacity and API ..."
+    "slug": "openclaw-memory-systems-vector-database-approach",
+    "title": "OpenClaw Memory Systems: Vector Database Approach",
+    "excerpt": "Last month I watched my friend Sarah, a product manager at a fintech startup, spend three hours manually searching through customer feedback documents to find patterns about their mobile app. She had ",
+    "publishedAt": "2026-03-01T00:00:00Z",
+    "heroImage": "/blog/images/openclaw-memory-systems-vector-database-approach.png",
+    "url": "/blog/openclaw-memory-systems-vector-database-approach.html"
   },
   {
-    "title": "Scaling OpenClaw: Lessons from 1,000 Deployments",
-    "date": "February 27, 2026",
-    "readTime": "12 min read",
-    "excerpt": "After deploying OpenClaw across a thousand different business scenarios, I've discovered patterns that completely changed how I think about AI automation scaling. From solo consultants to enterprise teams, the real breakthroughs happened when we stopped treating automation like a tech project and started viewing it as workflow redesign. Here's what actually works.",
-    "url": "/blog/scaling-openclaw-lessons-from-1-000-deployments.html",
-    "image": "/blog/images/scaling-openclaw-lessons-from-1-000-deployments.png",
-    "tags": [
-      "technical deep dives",
-      "OpenClaw",
-      "AI automation"
-    ],
-    "content": "Last Tuesday, I watched Maria, a operations manager at a mid-sized logistics company, stare at her screen in disbelief. She'd just processed three weeks' worth of vendor invoices in forty-seven minutes. Not reviewed them\u2014actually processed, categorized, and routed them through her approval workflow. Six months earlier, this same task consumed her entire Friday afternoon, every single week.\n\nThis wasn't magic. This was OpenClaw doing what it does best: taking the repetitive, brain-numbing work th..."
-  },
-  {
-    "title": "Securing Your AI Assistant: A Practical Guide",
-    "date": "February 27, 2026",
-    "readTime": "10 min read",
-    "excerpt": "Building secure AI assistants isn't just about passwords and firewalls anymore. After months of testing different approaches and watching security breaches happen to teams who thought they were protected, I've learned that real AI security requires a completely different mindset than traditional software protection.",
-    "url": "/blog/securing-your-ai-assistant-a-practical-guide.html",
-    "image": "/blog/images/securing-your-ai-assistant-a-practical-guide.png",
-    "tags": [
-      "technical deep dives",
-      "OpenClaw",
-      "AI automation"
-    ],
-    "content": "# Securing Your AI Assistant: A Practical Guide\n\nLast month, I watched a marketing director accidentally expose her company's entire customer database through what seemed like an innocent conversation with ChatGPT. She was trying to analyze customer feedback patterns and pasted in a spreadsheet that contained not just the feedback, but customer names, email addresses, and purchase histories. Within seconds, that sensitive data was processed by an AI system she had no control over.\n\nThe honest tr..."
-  },
-  {
-    "title": "The Business Case for AI Assistants in 2027",
-    "date": "February 27, 2026",
-    "readTime": "11 min read",
-    "excerpt": "By 2027, AI assistants will handle 80% of routine business operations while you focus on strategy and growth. Here's how smart companies are already saving 25+ hours weekly through intelligent automation, transforming customer service, project management, and data analysis without replacing human creativity or decision-making capabilities.",
-    "url": "/blog/the-business-case-for-ai-assistants-in-2027.html",
-    "image": "/blog/images/the-business-case-for-ai-assistants-in-2027.png",
-    "tags": [
-      "business strategy",
-      "OpenClaw",
-      "AI automation"
-    ],
-    "content": "Here's the thing about running a business in 2024 \u2013 I spend way too much time watching smart people do mindless work. Last week, I watched Sarah, an operations manager at a mid-sized consulting firm, spend three hours manually updating project status reports that could have been generated automatically. She's brilliant at strategic planning, but there she was, copying data between spreadsheets like it's 2005.\n\nThe honest truth? This isn't just inefficiency \u2013 it's a massive waste of human potenti..."
-  },
-  {
+    "slug": "pricing-ai-services-what-actually-works",
     "title": "Pricing AI Services: What Actually Works",
-    "date": "February 27, 2026",
-    "readTime": "13 min read",
-    "excerpt": "Here's what I learned after trying every pricing model for AI services: most agencies are leaving money on the table while clients get frustrated with unclear value. After building dozens of AI solutions, I discovered three pricing strategies that actually work \u2014 and why the \"charge by the hour\" approach kills deals before they start.",
-    "url": "/blog/pricing-ai-services-what-actually-works.html",
-    "image": "/blog/images/pricing-ai-services-what-actually-works.png",
-    "tags": [
-      "business strategy",
-      "OpenClaw",
-      "AI automation"
-    ],
-    "content": "Here's the thing about pricing AI services \u2014 I've watched brilliant developers crash and burn because they couldn't figure out how to charge for their work. And honestly? I get it. When Tim and I started building AI solutions, we made every mistake in the book.\n\nThe first project was a disaster. We quoted 40 hours for what we thought was a simple chatbot integration. Turns out, the client wanted something that could handle complex customer service scenarios, integrate with their CRM, and somehow..."
+    "excerpt": "Here's what I learned after trying every pricing model for AI services: most agencies are leaving money on the table while clients get frustrated with unclear value. After building dozens of AI soluti",
+    "publishedAt": "2026-03-01T00:00:00Z",
+    "heroImage": "/blog/images/pricing-ai-services-what-actually-works.png",
+    "url": "/blog/pricing-ai-services-what-actually-works.html"
   },
   {
-    "title": "The Psychology of AI-Human Collaboration",
-    "date": "February 27, 2026",
-    "readTime": "16 min read",
-    "excerpt": "Discover how the psychology of AI-human collaboration is reshaping modern workplaces. Explore the cognitive biases, trust dynamics, and behavioral patterns that determine success or failure when humans and artificial intelligence work together. Learn evidence-based strategies for building effective partnerships that amplify human creativity while leveraging AI's computational power.",
-    "url": "/blog/the-psychology-of-ai-human-collaboration.html",
-    "image": "/blog/images/the-psychology-of-ai-human-collaboration.png",
-    "tags": [
-      "technical deep dives",
-      "OpenClaw",
-      "AI automation"
-    ],
-    "content": "The Psychology of AI-Human Collaboration: Understanding the Mind Behind the Machine Partnership"
+    "slug": "scaling-openclaw-lessons-from-1-000-deployments",
+    "title": "Scaling OpenClaw: Lessons from 1,000 Deployments",
+    "excerpt": "After deploying OpenClaw across a thousand different business scenarios, I've discovered patterns that completely changed how I think about AI automation scaling. From solo consultants to enterprise t",
+    "publishedAt": "2026-03-01T00:00:00Z",
+    "heroImage": "/blog/images/scaling-openclaw-lessons-from-1-000-deployments.png",
+    "url": "/blog/scaling-openclaw-lessons-from-1-000-deployments.html"
   },
   {
+    "slug": "scaling-openclaw-lessons-from-10-000-deployments",
+    "title": "Scaling OpenClaw: Lessons from 10,000 Deployments",
+    "excerpt": "After deploying OpenClaw across thousands of businesses, I've discovered that scaling AI automation isn't just about technical infrastructure\u2014it's about understanding how humans actually work. From so",
+    "publishedAt": "2026-03-01T00:00:00Z",
+    "heroImage": "/blog/images/scaling-openclaw-lessons-from-10-000-deployments.png",
+    "url": "/blog/scaling-openclaw-lessons-from-10-000-deployments.html"
+  },
+  {
+    "slug": "securing-your-ai-assistant-a-practical-guide",
+    "title": "Securing Your AI Assistant: A Practical Guide",
+    "excerpt": "Building secure AI assistants isn't just about passwords and firewalls anymore. After months of testing different approaches and watching security breaches happen to teams who thought they were protec",
+    "publishedAt": "2026-03-01T00:00:00Z",
+    "heroImage": "/blog/images/securing-your-ai-assistant-a-practical-guide.png",
+    "url": "/blog/securing-your-ai-assistant-a-practical-guide.html"
+  },
+  {
+    "slug": "the-business-case-for-ai-assistants-in-2026",
     "title": "The Business Case for AI Assistants in 2026",
-    "date": "February 27, 2026",
-    "readTime": "15 min read",
-    "excerpt": "By 2026, AI assistants will save the average business professional 25 hours per week through intelligent task automation, document processing, and workflow orchestration. This comprehensive analysis reveals proven implementation strategies, measurable ROI calculations, and real-world transformation scenarios that demonstrate why AI assistants have become essential infrastructure for competitive businesses seeking operational excellence and sustainable growth.",
-    "url": "/blog/the-business-case-for-ai-assistants-in-2026.html",
-    "image": "/blog/images/the-business-case-for-ai-assistants-in-2026.png",
-    "tags": [
-      "business strategy",
-      "OpenClaw",
-      "AI automation"
-    ],
-    "content": "The Business Case for AI Assistants in 2026"
+    "excerpt": "By 2026, AI assistants will save the average business professional 25 hours per week through intelligent task automation, document processing, and workflow orchestration. This comprehensive analysis r",
+    "publishedAt": "2026-03-01T00:00:00Z",
+    "heroImage": "/blog/images/the-business-case-for-ai-assistants-in-2026.png",
+    "url": "/blog/the-business-case-for-ai-assistants-in-2026.html"
   },
   {
-    "title": "Building CliffMart: From Zero to Live in 48 Hours",
-    "date": "February 24, 2026",
-    "readTime": "5 min read",
-    "excerpt": "How we went from domain purchase to a working marketplace in two days. The tools we used, the mistakes we made, and what we'd do differently.",
-    "url": "/blog/building-in-public.html",
-    "image": "/blog/images/building-in-public.png",
-    "tags": [
-      "building in public",
-      "marketplace",
-      "deployment",
-      "startup"
-    ]
+    "slug": "the-business-case-for-ai-assistants-in-2027",
+    "title": "The Business Case for AI Assistants in 2027",
+    "excerpt": "By 2027, AI assistants will handle 80% of routine business operations while you focus on strategy and growth. Here's how smart companies are already saving 25+ hours weekly through intelligent automat",
+    "publishedAt": "2026-03-01T00:00:00Z",
+    "heroImage": "/blog/images/the-business-case-for-ai-assistants-in-2027.png",
+    "url": "/blog/the-business-case-for-ai-assistants-in-2027.html"
   },
   {
-    "title": "Painters quote 30 jobs a month and close 10. The follow-up gap explains the other 20.",
-    "date": "March 1, 2026",
-    "readTime": "9 min read",
-    "excerpt": "Painting contractors lose bids not on price \u2014 on follow-up. The estimate goes out, nobody calls back, and the homeowner books whoever responded first. After mapping where those lost bids actually go, the pattern is consistent and the fix is unglamorous.",
-    "url": "/blog/painting-contractors-estimate-follow-up-gap.html",
-    "image": "/blog/images/painting-contractors-estimate-follow-up-gap.png",
-    "tags": [
-      "Painting",
-      "Service Business",
-      "OpenClaw",
-      "AI Automation",
-      "Follow-Up"
-    ]
+    "slug": "the-psychology-of-ai-human-collaboration",
+    "title": "The Psychology of AI-Human Collaboration",
+    "excerpt": "Discover how the psychology of AI-human collaboration is reshaping modern workplaces. Explore the cognitive biases, trust dynamics, and behavioral patterns that determine success or failure when human",
+    "publishedAt": "2026-03-01T00:00:00Z",
+    "heroImage": "/blog/images/the-psychology-of-ai-human-collaboration.png",
+    "url": "/blog/the-psychology-of-ai-human-collaboration.html"
+  },
+  {
+    "slug": "med-spa-openclaw-automation",
+    "title": "How I'd Set Up OpenClaw If I Ran a Med Spa",
+    "excerpt": "Med spas lose clients to silence \u2014 missed follow-ups, lapsed memberships, ghost leads. Here's a practical OpenClaw setup that fixes the gaps without replacing your front desk.",
+    "publishedAt": "2026-02-28T15:17:00-08:00",
+    "heroImage": "/blog/images/med-spa-openclaw-automation.png",
+    "url": "/blog/med-spa-openclaw-automation.html"
+  },
+  {
+    "slug": "roofing-companies-openclaw-automation",
+    "title": "How I'd Set Up OpenClaw If I Ran a Roofing Company",
+    "excerpt": "Roofing companies lose leads every storm season \u2014 when demand spikes and the phone rings hardest. Here's a practical OpenClaw setup that catches every lead within 60 seconds.",
+    "publishedAt": "2026-02-28T12:15:23.293847",
+    "heroImage": "/blog/images/roofing-companies-openclaw-automation.png",
+    "url": "/blog/roofing-companies-openclaw-automation.html"
   }
 ]
