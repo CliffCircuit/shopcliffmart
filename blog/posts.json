@@ -218,5 +218,15 @@
     "image": "/blog/images/photography-studio-lead-response-gap.png",
     "url": "/blog/photography-studio-lead-response-gap.html",
     "publishedAt": "2026-03-01T21:15:00Z"
+  },
+  {
+    "slug": "electrician-emergency-lead-gap",
+    "title": "Electricians miss emergency calls on the job. An AI doesn't.",
+    "excerpt": "A homeowner's breaker trips at 9am. She calls four electricians. The first one back wins the job \u2014 and probably the next three calls from that house. I mapped where those emergency calls land during a typical electrician's day. It's mostly voicemail, and the lead math is uncomfortable.",
+    "date": "March 1, 2026",
+    "readTime": "9 min read",
+    "image": "/blog/images/electrician-emergency-lead-gap.png",
+    "url": "/blog/electrician-emergency-lead-gap.html",
+    "publishedAt": "2026-03-01T22:00:00Z"
   }
 ]
