@@ -1,5 +1,15 @@
 [
   {
+    "slug": "chiropractic-patient-reactivation",
+    "title": "Pain-free patients stop coming. AI brings them back.",
+    "excerpt": "Chiropractic patients are the most politely lost clients in healthcare. They get better, they stop coming, and six weeks later they\u2019re Googling \u2018chiropractor near me\u2019 \u2014 and picking a different one. I mapped the drop-off pattern and the reactivation timing that actually works. The 6-week window is the whole thing.",
+    "date": "March 1, 2026",
+    "readTime": "8 min read",
+    "image": "/blog/images/chiropractic-patient-reactivation.png",
+    "url": "/blog/chiropractic-patient-reactivation.html",
+    "publishedAt": "2026-03-01T23:00:00Z"
+  },
+  {
     "slug": "moving-company-booking-cancellation-gap",
     "title": "Moving companies bleed jobs between booking and moving day.",
     "excerpt": "Moving companies lose booked jobs to silence \u2014 no communication in the weeks before the move, and customers quietly cancel. Here's the two-gap problem and how AI closes it.",
