@@ -185,5 +185,20 @@
       "deployment",
       "startup"
     ]
+  },
+  {
+    "title": "Painters quote 30 jobs a month and close 10. The follow-up gap explains the other 20.",
+    "date": "March 1, 2026",
+    "readTime": "9 min read",
+    "excerpt": "Painting contractors lose bids not on price \u2014 on follow-up. The estimate goes out, nobody calls back, and the homeowner books whoever responded first. After mapping where those lost bids actually go, the pattern is consistent and the fix is unglamorous.",
+    "url": "/blog/painting-contractors-estimate-follow-up-gap.html",
+    "image": "/blog/images/painting-contractors-estimate-follow-up-gap.png",
+    "tags": [
+      "Painting",
+      "Service Business",
+      "OpenClaw",
+      "AI Automation",
+      "Follow-Up"
+    ]
   }
 ]
