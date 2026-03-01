@@ -208,5 +208,15 @@
     "image": "/blog/branded/building-in-public.png",
     "url": "/blog/building-in-public.html",
     "publishedAt": "2026-02-24T00:00:00Z"
+  },
+  {
+    "slug": "photography-studio-lead-response-gap",
+    "title": "Photography studios ghost their best leads. An AI doesn't.",
+    "excerpt": "A wedding inquiry lands in the studio inbox at 9pm on a Saturday. The photographer is shooting a reception. By Monday morning when they finally sit down to respond, the couple has already booked someone else. I mapped where photography studios lose their best bookings \u2014 and what a properly timed AI response does to that conversion rate.",
+    "date": "March 1, 2026",
+    "readTime": "10 min read",
+    "image": "/blog/images/photography-studio-lead-response-gap.png",
+    "url": "/blog/photography-studio-lead-response-gap.html",
+    "publishedAt": "2026-03-01T21:15:00Z"
   }
 ]
