@@ -1,5 +1,15 @@
 [
   {
+    "slug": "moving-company-booking-cancellation-gap",
+    "title": "Moving companies bleed jobs between booking and moving day.",
+    "excerpt": "Moving companies lose booked jobs to silence \u2014 no communication in the weeks before the move, and customers quietly cancel. Here's the two-gap problem and how AI closes it.",
+    "date": "March 1, 2026",
+    "readTime": "9 min read",
+    "image": "/blog/images/moving-company-booking-cancellation-gap.png",
+    "url": "/blog/moving-company-booking-cancellation-gap.html",
+    "publishedAt": "2026-03-01T16:30:00Z"
+  },
+  {
     "slug": "cleaning-service-silent-churn",
     "title": "Cleaning clients don't cancel. They drift \u2014 and an AI catches it.",
     "excerpt": "Residential cleaning companies lose recurring clients silently \u2014 no cancellation, no complaint. Here's how to spot the drift before it becomes churn, and automate the fix.",
