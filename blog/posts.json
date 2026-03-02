@@ -1,8 +1,18 @@
 [
   {
+    "slug": "tutoring-center-enrollment-retention",
+    "title": "Tutoring Centers Lose 30% of Fall Roster by January",
+    "excerpt": "Tutoring centers have a beautiful enrollment season in August and September, then watch the roster quietly thin out through October and November. The families who leave don't have bad experiences \u2014 they just stop re-enrolling when life gets busy and nobody made re-enrollment feel easy.",
+    "date": "March 2, 2026",
+    "readTime": "7 min read",
+    "image": "/blog/images/tutoring-center-enrollment-retention.png",
+    "url": "/blog/tutoring-center-enrollment-retention.html",
+    "publishedAt": "2026-03-02T19:00:00.000Z"
+  },
+  {
     "slug": "insurance-agency-renewal-drift",
-    "title": "Insurance clients don't switch agencies. They drift — and AI catches it.",
-    "excerpt": "Independent insurance agents lose 15-20% of their book every year not from bad service — from silence. The premium renews, nobody calls, and six month...",
+    "title": "Insurance clients don't switch agencies. They drift \u2014 and AI catches it.",
+    "excerpt": "Independent insurance agents lose 15-20% of their book every year not from bad service \u2014 from silence. The premium renews, nobody calls, and six month...",
     "date": "March 2, 2026",
     "readTime": "10 min read",
     "image": "/blog/images/insurance-agency-renewal-drift.png",
@@ -32,7 +42,7 @@
   {
     "slug": "dog-grooming-rebooking-gap",
     "title": "Dog Groomers: the 8-Week Rebooking Gap",
-    "excerpt": "Dog grooming is an inherently recurring service — most dogs need it every 6-8 weeks. But most grooming salons wait for the phone to ring. The salons with packed schedules figured out the 5-week message.",
+    "excerpt": "Dog grooming is an inherently recurring service \u2014 most dogs need it every 6-8 weeks. But most grooming salons wait for the phone to ring. The salons with packed schedules figured out the 5-week message.",
     "date": "March 1, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/dog-grooming-rebooking-gap.png",
@@ -41,8 +51,8 @@
   },
   {
     "slug": "dental-no-show-pattern",
-    "title": "Why dental no-shows are predictable — and how to automate the fix",
-    "excerpt": "Dental offices treat no-shows like weather — unpredictable, annoying, just part of the business. They're not. After mapping when and why patients ghost, the pattern is clear.",
+    "title": "Why dental no-shows are predictable \u2014 and how to automate the fix",
+    "excerpt": "Dental offices treat no-shows like weather \u2014 unpredictable, annoying, just part of the business. They're not. After mapping when and why patients ghost, the pattern is clear.",
     "date": "March 1, 2026",
     "readTime": "8 min read",
     "image": "/blog/images/dental-no-show-pattern.png",
@@ -61,8 +71,8 @@
   },
   {
     "slug": "pool-service-follow-up-gap",
-    "title": "The $2K/month leak in every pool route — and the AI that plugs it",
-    "excerpt": "Pool service companies lose customers slowly — one unanswered text, one missed estimate, one repair that never got scheduled. After watching this pattern across pool routes, the fix isn't more technicians. It's a follow-up system.",
+    "title": "The $2K/month leak in every pool route \u2014 and the AI that plugs it",
+    "excerpt": "Pool service companies lose customers slowly \u2014 one unanswered text, one missed estimate, one repair that never got scheduled. After watching this pattern across pool routes, the fix isn't more technicians. It's a follow-up system.",
     "date": "March 1, 2026",
     "readTime": "8 min read",
     "image": "/blog/images/pool-service-follow-up-gap.png",
@@ -72,7 +82,7 @@
   {
     "slug": "physical-therapy-care-plan-dropout",
     "title": "PT Patients Quit at Session 6. AI Catches Them at 3.",
-    "excerpt": "Physical therapy patients don't drop out suddenly. They start skipping, then skipping more frequently, and somewhere around session 5 or 6 they quietly stop scheduling. The clinic loses the remaining plan revenue. The patient doesn't fully recover. I mapped the dropout pattern across care plan stages — and what three well-timed messages actually change about it.",
+    "excerpt": "Physical therapy patients don't drop out suddenly. They start skipping, then skipping more frequently, and somewhere around session 5 or 6 they quietly stop scheduling. The clinic loses the remaining plan revenue. The patient doesn't fully recover. I mapped the dropout pattern across care plan stages \u2014 and what three well-timed messages actually change about it.",
     "date": "March 1, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/physical-therapy-care-plan-dropout.png",
@@ -82,7 +92,7 @@
   {
     "slug": "chiropractic-patient-reactivation",
     "title": "Pain-free patients stop coming. AI brings them back.",
-    "excerpt": "Chiropractic patients are the most politely lost clients in healthcare. They get better, they stop coming, and six weeks later they’re Googling ‘chiropractor near me’ — and picking a different one. I mapped the drop-off pattern and the reactivation timing that actually works. The 6-week window is the whole thing.",
+    "excerpt": "Chiropractic patients are the most politely lost clients in healthcare. They get better, they stop coming, and six weeks later they\u2019re Googling \u2018chiropractor near me\u2019 \u2014 and picking a different one. I mapped the drop-off pattern and the reactivation timing that actually works. The 6-week window is the whole thing.",
     "date": "March 1, 2026",
     "readTime": "8 min read",
     "image": "/blog/images/chiropractic-patient-reactivation.png",
@@ -92,7 +102,7 @@
   {
     "slug": "moving-company-booking-cancellation-gap",
     "title": "Moving companies bleed jobs between booking and moving day.",
-    "excerpt": "Moving companies lose booked jobs to silence — no communication in the weeks before the move, and customers quietly cancel. Here's the two-gap problem and how AI closes it.",
+    "excerpt": "Moving companies lose booked jobs to silence \u2014 no communication in the weeks before the move, and customers quietly cancel. Here's the two-gap problem and how AI closes it.",
     "date": "March 1, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/moving-company-booking-cancellation-gap.png",
@@ -101,8 +111,8 @@
   },
   {
     "slug": "cleaning-service-silent-churn",
-    "title": "Cleaning clients don't cancel. They drift — and an AI catches it.",
-    "excerpt": "Residential cleaning companies lose recurring clients silently — no cancellation, no complaint. Here's how to spot the drift before it becomes churn, and automate the fix.",
+    "title": "Cleaning clients don't cancel. They drift \u2014 and an AI catches it.",
+    "excerpt": "Residential cleaning companies lose recurring clients silently \u2014 no cancellation, no complaint. Here's how to spot the drift before it becomes churn, and automate the fix.",
     "date": "March 1, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/cleaning-service-silent-churn.png",
@@ -112,7 +122,7 @@
   {
     "slug": "plumbing-emergency-lead-response",
     "title": "Plumbers miss emergency calls while they're on jobs. An AI doesn't.",
-    "excerpt": "Plumbing shops miss their best leads when they're on jobs — and the caller books a competitor within 90 minutes. Here's the AI workflow that closes that gap.",
+    "excerpt": "Plumbing shops miss their best leads when they're on jobs \u2014 and the caller books a competitor within 90 minutes. Here's the AI workflow that closes that gap.",
     "date": "March 1, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/plumbing-emergency-lead-response.png",
@@ -132,7 +142,7 @@
   {
     "slug": "gym-member-churn-ai-early-warning",
     "title": "Gym members ghost before they cancel. Here's the AI that catches them first.",
-    "excerpt": "Gym members show behavioral signals weeks before they cancel. Check-in drops, class booking stops — the data is there. Here's how AI turns that signal into a retention system.",
+    "excerpt": "Gym members show behavioral signals weeks before they cancel. Check-in drops, class booking stops \u2014 the data is there. Here's how AI turns that signal into a retention system.",
     "date": "March 1, 2026",
     "readTime": "12 min read",
     "image": "/blog/images/gym-member-churn-ai-early-warning.png",
@@ -142,7 +152,7 @@
   {
     "slug": "vet-clinic-overdue-patient-ai",
     "title": "40% of vet patients are overdue for a visit. Here's the AI that finds them.",
-    "excerpt": "Veterinary clinics have rich patient data on overdue and at-risk animals — and rarely act on it. Here's what an AI-driven outreach system looks like for a small animal clinic.",
+    "excerpt": "Veterinary clinics have rich patient data on overdue and at-risk animals \u2014 and rarely act on it. Here's what an AI-driven outreach system looks like for a small animal clinic.",
     "date": "March 1, 2026",
     "readTime": "10 min read",
     "image": "/blog/images/vet-clinic-overdue-patient-ai.png",
@@ -152,7 +162,7 @@
   {
     "slug": "restaurant-guest-data-ai-winback",
     "title": "Most restaurants ignore their guest list. AI doesn't.",
-    "excerpt": "Restaurants collect thousands of guest contacts through reservations, loyalty apps, and POS systems — then do nothing with them. Here's what an AI-driven win-back system actually looks like.",
+    "excerpt": "Restaurants collect thousands of guest contacts through reservations, loyalty apps, and POS systems \u2014 then do nothing with them. Here's what an AI-driven win-back system actually looks like.",
     "date": "March 1, 2026",
     "readTime": "8 min read",
     "image": "/blog/images/restaurant-guest-data-ai-winback.png",
@@ -162,7 +172,7 @@
   {
     "slug": "landscaping-recurring-account-churn",
     "title": "Landscaping companies lose their best accounts in October. An AI sees it coming.",
-    "excerpt": "Landscaping companies lose recurring clients in the off-season — not from bad work, but from silence. Three messages over four months fix most of it.",
+    "excerpt": "Landscaping companies lose recurring clients in the off-season \u2014 not from bad work, but from silence. Three messages over four months fix most of it.",
     "date": "March 1, 2026",
     "readTime": "8 min read",
     "image": "/blog/images/landscaping-recurring-account-churn.png",
@@ -172,7 +182,7 @@
   {
     "slug": "auto-repair-customer-communication-gap",
     "title": "Auto repair shops ghost customers. An AI follow-up agent doesn't.",
-    "excerpt": "Auto repair shops lose repeat customers not from bad work — from silence. No update calls, no follow-up, no system. Here's the workflow that fixes it.",
+    "excerpt": "Auto repair shops lose repeat customers not from bad work \u2014 from silence. No update calls, no follow-up, no system. Here's the workflow that fixes it.",
     "date": "March 1, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/auto-repair-customer-communication-gap.png",
@@ -222,7 +232,7 @@
   {
     "slug": "scaling-openclaw-lessons-from-10-000-deployments",
     "title": "Scaling OpenClaw: Lessons from 10,000 Deployments",
-    "excerpt": "After deploying OpenClaw across thousands of businesses, I've discovered that scaling AI automation isn't just about technical infrastructure—it's about understanding how humans actually work. From so",
+    "excerpt": "After deploying OpenClaw across thousands of businesses, I've discovered that scaling AI automation isn't just about technical infrastructure\u2014it's about understanding how humans actually work. From so",
     "date": "March 1, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/scaling-openclaw-lessons-from-10-000-deployments.png",
@@ -262,7 +272,7 @@
   {
     "slug": "hvac-contractors-openclaw-automation",
     "title": "How I'd Set Up OpenClaw If I Ran an HVAC Company",
-    "excerpt": "HVAC contractors lose leads every peak season — not because they're bad at their jobs, but because their phone rings hardest when they can't answer it. Here's the AI setup I'd build on day one.",
+    "excerpt": "HVAC contractors lose leads every peak season \u2014 not because they're bad at their jobs, but because their phone rings hardest when they can't answer it. Here's the AI setup I'd build on day one.",
     "date": "March 1, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/hvac-contractors-openclaw-automation.png",
@@ -272,7 +282,7 @@
   {
     "slug": "med-spa-openclaw-automation",
     "title": "How I'd Set Up OpenClaw If I Ran a Med Spa",
-    "excerpt": "Med spas lose clients to silence — missed follow-ups, lapsed memberships, ghost leads. Here's a practical OpenClaw setup that fixes the gaps without replacing your front desk.",
+    "excerpt": "Med spas lose clients to silence \u2014 missed follow-ups, lapsed memberships, ghost leads. Here's a practical OpenClaw setup that fixes the gaps without replacing your front desk.",
     "date": "February 28, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/med-spa-openclaw-automation.png",
@@ -282,7 +292,7 @@
   {
     "slug": "roofing-companies-openclaw-automation",
     "title": "How I'd Set Up OpenClaw If I Ran a Roofing Company",
-    "excerpt": "Roofing companies lose leads every storm season — when demand spikes and the phone rings hardest. Here's a practical OpenClaw setup that catches every lead within 60 seconds.",
+    "excerpt": "Roofing companies lose leads every storm season \u2014 when demand spikes and the phone rings hardest. Here's a practical OpenClaw setup that catches every lead within 60 seconds.",
     "date": "February 28, 2026",
     "readTime": "8 min read",
     "image": "/blog/images/roofing-companies-openclaw-automation.png",
@@ -302,7 +312,7 @@
   {
     "slug": "photography-studio-lead-response-gap",
     "title": "Photography studios ghost their best leads. An AI doesn't.",
-    "excerpt": "A wedding inquiry lands in the studio inbox at 9pm on a Saturday. The photographer is shooting a reception. By Monday morning when they finally sit down to respond, the couple has already booked someone else. I mapped where photography studios lose their best bookings — and what a properly timed AI response does to that conversion rate.",
+    "excerpt": "A wedding inquiry lands in the studio inbox at 9pm on a Saturday. The photographer is shooting a reception. By Monday morning when they finally sit down to respond, the couple has already booked someone else. I mapped where photography studios lose their best bookings \u2014 and what a properly timed AI response does to that conversion rate.",
     "date": "March 1, 2026",
     "readTime": "10 min read",
     "image": "/blog/images/photography-studio-lead-response-gap.png",
@@ -312,7 +322,7 @@
   {
     "slug": "electrician-emergency-lead-gap",
     "title": "Electricians miss emergency calls on the job. An AI doesn't.",
-    "excerpt": "A homeowner's breaker trips at 9am. She calls four electricians. The first one back wins the job — and probably the next three calls from that house. I mapped where those emergency calls land during a typical electrician's day. It's mostly voicemail, and the lead math is uncomfortable.",
+    "excerpt": "A homeowner's breaker trips at 9am. She calls four electricians. The first one back wins the job \u2014 and probably the next three calls from that house. I mapped where those emergency calls land during a typical electrician's day. It's mostly voicemail, and the lead math is uncomfortable.",
     "date": "March 1, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/electrician-emergency-lead-gap.png",
@@ -322,7 +332,7 @@
   {
     "slug": "electrician-permit-communication-gap",
     "title": "The permit silence that costs electricians their best referrals",
-    "excerpt": "An electrician finishes the rough-in, pulls the permit, and goes quiet for two weeks while the inspection process grinds along. The homeowner starts wondering if something went wrong. By the time the job is complete, the experience felt stressful — even though the work was excellent. I mapped exactly where electrical contractors lose referrals they should own. It's almost never the wiring.",
+    "excerpt": "An electrician finishes the rough-in, pulls the permit, and goes quiet for two weeks while the inspection process grinds along. The homeowner starts wondering if something went wrong. By the time the job is complete, the experience felt stressful \u2014 even though the work was excellent. I mapped exactly where electrical contractors lose referrals they should own. It's almost never the wiring.",
     "date": "March 1, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/electrician-permit-communication-gap.png",
@@ -332,7 +342,7 @@
   {
     "slug": "auto-detail-repeat-booking-gap",
     "title": "Detail Shops Do Great Work Once. AI Gets the Repeat.",
-    "excerpt": "Auto detailing has one of the best repeat-purchase profiles in any service business — most cars need a full detail every 3-4 months, with maintenance washes in between. Most detail shops have no system to capture any of it. They do great work, hand the keys back, and wait for the phone to ring. The phone doesn't ring as often as it should. Here's why, and what changes when it does.",
+    "excerpt": "Auto detailing has one of the best repeat-purchase profiles in any service business \u2014 most cars need a full detail every 3-4 months, with maintenance washes in between. Most detail shops have no system to capture any of it. They do great work, hand the keys back, and wait for the phone to ring. The phone doesn't ring as often as it should. Here's why, and what changes when it does.",
     "date": "March 1, 2026",
     "readTime": "9 min read",
     "image": "/blog/images/auto-detail-repeat-booking-gap.png",
