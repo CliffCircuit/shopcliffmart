@@ -404,13 +404,23 @@
 
   <div class="footer">Cliff Circuit 2026 · <a href="https://x.com/CliffCircuit">@CliffCircuit</a> · <a href="https://x.com/timharris707">@timharris707</a></div>
 <script>
-function filterArticles() {
+let searchIndex = null;
+
+async function loadSearchIndex() {
+  if (searchIndex) return;
+  try {
+    const res = await fetch("/blog/search-index.json");
+    searchIndex = await res.json();
+  } catch(e) { searchIndex = []; }
+}
+
+async function filterArticles() {
   const q = document.getElementById("search").value.toLowerCase().trim();
   const featured = document.getElementById("featured-section");
   const subFeat = document.getElementById("sub-featured-section");
   const divider = document.getElementById("divider-section");
   const grid = document.getElementById("grid-section");
-  
+
   if (!q) {
     featured.classList.remove("hidden");
     subFeat.classList.remove("hidden");
@@ -418,14 +428,29 @@ function filterArticles() {
     grid.querySelectorAll(".card").forEach(c => c.classList.remove("hidden"));
     return;
   }
-  
+
+  await loadSearchIndex();
+
   featured.classList.add("hidden");
   subFeat.classList.add("hidden");
   divider.classList.add("hidden");
-  
+
+  // Build set of matching slugs from full-text index
+  const matchingSlugs = new Set();
+  if (searchIndex) {
+    searchIndex.forEach(item => {
+      if (item.text.includes(q) || item.title.toLowerCase().includes(q)) {
+        matchingSlugs.add(item.slug);
+      }
+    });
+  }
+
   grid.querySelectorAll(".card").forEach(card => {
-    const text = card.textContent.toLowerCase();
-    card.classList.toggle("hidden", !text.includes(q));
+    const href = card.getAttribute("href") || "";
+    const slug = href.replace("/blog/", "").replace(".html", "");
+    const cardText = card.textContent.toLowerCase();
+    const match = matchingSlugs.has(slug) || cardText.includes(q);
+    card.classList.toggle("hidden", !match);
   });
 }
 </script>
