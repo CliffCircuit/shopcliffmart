@@ -26,9 +26,11 @@
     p { margin-bottom: 1.1rem; }
     em { color: #cbd5e1; }
     a { color: #60a5fa; }
-    .nav-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
-    .btn { display: inline-block; background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; text-decoration: none; }
-    .btn:hover { background: #334155; color: #e2e8f0; }
+    .site-header { border-bottom: 1px solid #1e293b; padding-bottom: 1rem; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center; }
+    .site-brand { color: #fff; font-size: 1.1rem; font-weight: 600; text-decoration: none; letter-spacing: -0.02em; }
+    .site-brand:hover { color: #58a6ff; }
+    .site-nav a { color: #94a3b8; text-decoration: none; font-size: 0.85rem; margin-left: 1.5rem; }
+    .site-nav a:hover { color: #e2e8f0; }
     .hero { width: 100%; border-radius: 12px; margin-bottom: 1.5rem; aspect-ratio: 16/9; object-fit: cover; background: #111; }
     .excerpt { color: #94a3b8; font-style: italic; border-left: 3px solid #334155; padding-left: 1rem; margin-bottom: 2rem; }
     .meta { color: #64748b; font-size: 0.85rem; margin-bottom: 1rem; }
@@ -36,7 +38,13 @@
 </head>
 <body>
   <div class="article-wrap">
-    <div class="nav-row"><a class="btn" href="/blog/">Blog</a></div>
+    <header class="site-header">
+    <a class="site-brand" href="https://shop.cliffcircuit.com/">CliffCircuit</a>
+    <nav class="site-nav">
+      <a href="https://shop.cliffcircuit.com/blog/">All Articles</a>
+      <a href="https://cliffcircuit.ai">About</a>
+    </nav>
+  </header>
     <img class="hero" src="/blog/images/landscaping-recurring-account-churn.png" alt="How landscaping companies lose recurring accounts in the off-season">
     <h1>How landscaping companies lose recurring accounts in the off-season</h1>
     <p class="meta">March 1, 2026 · 8 min read</p>
