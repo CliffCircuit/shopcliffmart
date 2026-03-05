@@ -35,7 +35,7 @@
 </head>
 <body>
   <div class="article-wrap">
-    <div class="nav-row"><a class="btn" href="javascript:void(0)" onclick="history.back()">Back</a><a class="btn" href="/blog/">Blog</a></div>
+    <div class="nav-row"><a class="btn" href="javascript:void(0)" onclick="if(history.length>1){history.back()}else{location.href='/blog/'}">Back</a><a class="btn" href="/blog/">Blog</a></div>
     <img class="hero" src="/blog/images/scaling-openclaw-lessons-from-10-000-deployments.png" alt="Scaling OpenClaw: Lessons from 10,000 Deployments">
     <h1>Scaling OpenClaw: Lessons from 10,000 Deployments</h1>
     <p class="meta">February 28, 2026 · 13 min read</p>
